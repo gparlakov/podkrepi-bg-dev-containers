@@ -1,4 +1,4 @@
-FROM node:16.10-alpine3.14
+FROM node:20-alpine
 
 RUN apk --no-cache add curl git zsh sudo docker-cli docker-compose
 
